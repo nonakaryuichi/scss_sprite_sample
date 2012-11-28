@@ -1,0 +1,202 @@
+/* *****************************
+ *
+ * Import file to Scss or Sass.
+ *
+ **************************** */
+@import "compass";
+
+html
+{
+        background: url(../images/background.png) repeat 0 0;
+
+        body
+        {
+                font-size: 84%;
+                line-height:100%;
+        }
+}
+
+#header
+{
+        #siteID
+        {
+                margin : 100px auto 0 auto;
+                width  : 446px;
+        }
+}
+
+#navBtns
+{
+        margin :70px 0 0 0;
+
+        #navBtnList
+        {
+                $btns     : sprite-map("btn/*.png", $spacing: 20px);
+                
+                width:446px;
+                margin: 0 auto;
+
+                .btn
+                {
+                        float:left;
+                        width:81px;
+                        height:81px;
+                        margin:0 5px 0 0;
+
+                        a
+                        {
+                                display: block;
+                                overflow:hidden;
+                                width:81px;
+                                height:81px;
+
+                                text-indent:-9999px;
+
+                                background : $btns no-repeat;
+                        }
+
+                        &.home
+                        {
+                                a
+                                {
+                                        background-position: sprite-position( $btns, btn_home_normal );
+                                }
+
+                                a:hover
+                                {
+                                        background-position: sprite-position( $btns, btn_home_hover );
+                                }
+                                
+                                a:active
+                                {
+                                        background-position: sprite-position( $btns, btn_home_pressed );
+                                }
+                        }
+
+                        &.home.selected
+                        {
+                                a
+                                {
+                                        background-position: sprite-position( $btns, btn_home_selected );
+                                }
+                        }
+
+
+                        &.edit
+                        {
+                                a
+                                {
+                                        background-position: sprite-position( $btns, btn_edit_normal );
+                                }
+
+                                a:hover
+                                {
+                                        background-position: sprite-position( $btns, btn_edit_hover );
+                                }
+                                
+                                a:active
+                                {
+                                        background-position: sprite-position( $btns, btn_edit_pressed );
+                                }
+                        }
+
+                        &.edit.selected
+                        {
+                                a
+                                {
+                                        background-position: sprite-position( $btns, btn_edit_selected );
+                                }
+                        }
+
+                        &.graph
+                        {
+                                a
+                                {
+                                        background-position: sprite-position( $btns, btn_graph_normal );
+                                }
+
+                                a:hover
+                                {
+                                        background-position: sprite-position( $btns, btn_graph_hover );
+                                }
+                                
+                                a:active
+                                {
+                                        background-position: sprite-position( $btns, btn_graph_pressed );
+                                }
+                        }
+
+                        &.graph.selected
+                        {
+                                a
+                                {
+                                        background-position: sprite-position( $btns, btn_graph_selected );
+                                }
+                        }
+
+                        &.user
+                        {
+                                a
+                                {
+                                        background-position: sprite-position( $btns, btn_user_normal );
+                                }
+
+                                a:hover
+                                {
+                                        background-position: sprite-position( $btns, btn_user_hover );
+                                }
+                                
+                                a:active
+                                {
+                                        background-position: sprite-position( $btns, btn_user_pressed );
+                                }
+                        }
+
+                        &.user.selected
+                        {
+                                a
+                                {
+                                        background-position: sprite-position( $btns, btn_user_selected );
+                                }
+                        }
+
+
+                        &.inquiry
+                        {
+                                a
+                                {
+                                        background-position: sprite-position( $btns, btn_inquiry_normal );
+                                }
+
+                                a:hover
+                                {
+                                        background-position: sprite-position( $btns, btn_inquiry_hover );
+                                }
+                                
+                                a:active
+                                {
+                                        background-position: sprite-position( $btns, btn_inquiry_pressed );
+                                }
+                        }
+
+                        &.user.selected
+                        {
+                                a
+                                {
+                                        background-position: sprite-position( $btns, btn_inquiry_selected );
+                                }
+                        }
+                }
+
+                
+        }
+}
+
+
+#footer
+{
+        margin : 100px 0 0 0;
+        clear:both;
+
+        text-align:right;
+}

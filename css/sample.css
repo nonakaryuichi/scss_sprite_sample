@@ -1,0 +1,133 @@
+/* *****************************
+ *
+ * Import file to Scss or Sass.
+ *
+ **************************** */
+/* line 9, ../scss/sample.scss */
+html {
+  background: url(../images/background.png) repeat 0 0;
+}
+/* line 13, ../scss/sample.scss */
+html body {
+  font-size: 84%;
+  line-height: 100%;
+}
+
+/* line 22, ../scss/sample.scss */
+#header #siteID {
+  margin: 100px auto 0 auto;
+  width: 446px;
+}
+
+/* line 29, ../scss/sample.scss */
+#navBtns {
+  margin: 70px 0 0 0;
+}
+/* line 33, ../scss/sample.scss */
+#navBtns #navBtnList {
+  width: 446px;
+  margin: 0 auto;
+}
+/* line 40, ../scss/sample.scss */
+#navBtns #navBtnList .btn {
+  float: left;
+  width: 81px;
+  height: 81px;
+  margin: 0 5px 0 0;
+}
+/* line 47, ../scss/sample.scss */
+#navBtns #navBtnList .btn a {
+  display: block;
+  overflow: hidden;
+  width: 81px;
+  height: 81px;
+  text-indent: -9999px;
+  background: url('file:///D:/xampp/htdocs/pj/scss_lab/scss_sprite_sample/images/btn-s757da34596.png') no-repeat;
+}
+/* line 61, ../scss/sample.scss */
+#navBtns #navBtnList .btn.home a {
+  background-position: 0 -606px;
+}
+/* line 66, ../scss/sample.scss */
+#navBtns #navBtnList .btn.home a:hover {
+  background-position: 0 -1515px;
+}
+/* line 71, ../scss/sample.scss */
+#navBtns #navBtnList .btn.home a:active {
+  background-position: 0 -505px;
+}
+/* line 79, ../scss/sample.scss */
+#navBtns #navBtnList .btn.home.selected a {
+  background-position: 0 0;
+}
+/* line 88, ../scss/sample.scss */
+#navBtns #navBtnList .btn.edit a {
+  background-position: 0 -1111px;
+}
+/* line 93, ../scss/sample.scss */
+#navBtns #navBtnList .btn.edit a:hover {
+  background-position: 0 -1717px;
+}
+/* line 98, ../scss/sample.scss */
+#navBtns #navBtnList .btn.edit a:active {
+  background-position: 0 -808px;
+}
+/* line 106, ../scss/sample.scss */
+#navBtns #navBtnList .btn.edit.selected a {
+  background-position: 0 -101px;
+}
+/* line 114, ../scss/sample.scss */
+#navBtns #navBtnList .btn.graph a {
+  background-position: 0 -1212px;
+}
+/* line 119, ../scss/sample.scss */
+#navBtns #navBtnList .btn.graph a:hover {
+  background-position: 0 -1616px;
+}
+/* line 124, ../scss/sample.scss */
+#navBtns #navBtnList .btn.graph a:active {
+  background-position: 0 -909px;
+}
+/* line 132, ../scss/sample.scss */
+#navBtns #navBtnList .btn.graph.selected a {
+  background-position: 0 -202px;
+}
+/* line 140, ../scss/sample.scss */
+#navBtns #navBtnList .btn.user a {
+  background-position: 0 -1414px;
+}
+/* line 145, ../scss/sample.scss */
+#navBtns #navBtnList .btn.user a:hover {
+  background-position: 0 -1919px;
+}
+/* line 150, ../scss/sample.scss */
+#navBtns #navBtnList .btn.user a:active {
+  background-position: 0 -1313px;
+}
+/* line 158, ../scss/sample.scss */
+#navBtns #navBtnList .btn.user.selected a {
+  background-position: 0 -404px;
+}
+/* line 167, ../scss/sample.scss */
+#navBtns #navBtnList .btn.inquiry a {
+  background-position: 0 -1010px;
+}
+/* line 172, ../scss/sample.scss */
+#navBtns #navBtnList .btn.inquiry a:hover {
+  background-position: 0 -1818px;
+}
+/* line 177, ../scss/sample.scss */
+#navBtns #navBtnList .btn.inquiry a:active {
+  background-position: 0 -707px;
+}
+/* line 185, ../scss/sample.scss */
+#navBtns #navBtnList .btn.user.selected a {
+  background-position: 0 -303px;
+}
+
+/* line 197, ../scss/sample.scss */
+#footer {
+  margin: 100px 0 0 0;
+  clear: both;
+  text-align: right;
+}
