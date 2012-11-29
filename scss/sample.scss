@@ -97,7 +97,7 @@ html
         #navBtnList
         {
                 //vars
-                $btns: sprite-map("btn/*.png", $spacing: 20px, $layout: smart);
+                $btns: sprite-map("btn/*.png", $spacing: 20px, $layout: horizontal);
                 /*
                  * $spacing: 00px
                  * $layout: vertical, horizontal, diagonal, smart
@@ -126,7 +126,8 @@ html
                                 height:         81px;
 
                                 //typo
-                                text-indent: -9999px;
+                                text-indent:    100%;
+                                white-space:  nowrap;
 
                                 //background
                                 background : $btns no-repeat;
@@ -314,7 +315,8 @@ html
                         overflow:     hidden;
 
                         //typo
-                        text-indent: -9999px;
+                        text-indent:    100%;
+                        white-space:  nowrap;
 
                         //background
                         background : $links no-repeat;

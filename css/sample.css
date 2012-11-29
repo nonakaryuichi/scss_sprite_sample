@@ -214,100 +214,101 @@ html body {
   overflow: hidden;
   width: 81px;
   height: 81px;
-  text-indent: -9999px;
-  background: url('http://nonakaryuichi.github.com/scss_sprite_sample/images/btn-sb9c7d858f3.png') no-repeat;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: url('http://nonakaryuichi.github.com/scss_sprite_sample/images/btn-s8cc7d53f9f.png') no-repeat;
 }
-/* line 139, ../scss/sample.scss */
+/* line 140, ../scss/sample.scss */
 #navBtns #navBtnList .btn.home a {
-  background-position: 0 -729px;
+  background-position: -909px 0;
 }
-/* line 145, ../scss/sample.scss */
+/* line 146, ../scss/sample.scss */
 #navBtns #navBtnList .btn.home a:hover {
-  background-position: 0 -648px;
+  background-position: -808px 0;
 }
-/* line 151, ../scss/sample.scss */
+/* line 152, ../scss/sample.scss */
 #navBtns #navBtnList .btn.home a:active {
-  background-position: 0 -810px;
+  background-position: -1010px 0;
 }
-/* line 156, ../scss/sample.scss */
+/* line 157, ../scss/sample.scss */
 #navBtns #navBtnList .btn.home a:target {
-  background-position: 0 -891px;
+  background-position: -1111px 0;
 }
-/* line 165, ../scss/sample.scss */
+/* line 166, ../scss/sample.scss */
 #navBtns #navBtnList .btn.edit {
   margin-top: 40px;
 }
-/* line 171, ../scss/sample.scss */
+/* line 172, ../scss/sample.scss */
 #navBtns #navBtnList .btn.edit a {
-  background-position: 0 -81px;
+  background-position: -101px 0;
 }
-/* line 177, ../scss/sample.scss */
+/* line 178, ../scss/sample.scss */
 #navBtns #navBtnList .btn.edit a:hover {
   background-position: 0 0;
 }
-/* line 183, ../scss/sample.scss */
+/* line 184, ../scss/sample.scss */
 #navBtns #navBtnList .btn.edit a:active {
-  background-position: 0 -162px;
+  background-position: -202px 0;
 }
-/* line 188, ../scss/sample.scss */
+/* line 189, ../scss/sample.scss */
 #navBtns #navBtnList .btn.edit a:target {
-  background-position: 0 -243px;
+  background-position: -303px 0;
 }
-/* line 197, ../scss/sample.scss */
+/* line 198, ../scss/sample.scss */
 #navBtns #navBtnList .btn.graph {
   margin-top: -10px;
 }
-/* line 203, ../scss/sample.scss */
+/* line 204, ../scss/sample.scss */
 #navBtns #navBtnList .btn.graph a {
-  background-position: 0 -405px;
+  background-position: -505px 0;
 }
-/* line 208, ../scss/sample.scss */
+/* line 209, ../scss/sample.scss */
 #navBtns #navBtnList .btn.graph a:hover {
-  background-position: 0 -324px;
+  background-position: -404px 0;
 }
-/* line 213, ../scss/sample.scss */
+/* line 214, ../scss/sample.scss */
 #navBtns #navBtnList .btn.graph a:active {
-  background-position: 0 -486px;
+  background-position: -606px 0;
 }
-/* line 218, ../scss/sample.scss */
+/* line 219, ../scss/sample.scss */
 #navBtns #navBtnList .btn.graph a:target {
-  background-position: 0 -567px;
+  background-position: -707px 0;
 }
-/* line 227, ../scss/sample.scss */
+/* line 228, ../scss/sample.scss */
 #navBtns #navBtnList .btn.user {
   margin-top: 40px;
 }
-/* line 233, ../scss/sample.scss */
+/* line 234, ../scss/sample.scss */
 #navBtns #navBtnList .btn.user a {
-  background-position: 0 -1377px;
+  background-position: -1717px 0;
 }
-/* line 239, ../scss/sample.scss */
+/* line 240, ../scss/sample.scss */
 #navBtns #navBtnList .btn.user a:hover {
-  background-position: 0 -1296px;
+  background-position: -1616px 0;
 }
-/* line 245, ../scss/sample.scss */
+/* line 246, ../scss/sample.scss */
 #navBtns #navBtnList .btn.user a:active {
-  background-position: 0 -1458px;
+  background-position: -1818px 0;
 }
-/* line 250, ../scss/sample.scss */
+/* line 251, ../scss/sample.scss */
 #navBtns #navBtnList .btn.user a:target {
-  background-position: 0 -1539px;
+  background-position: -1919px 0;
 }
-/* line 262, ../scss/sample.scss */
+/* line 263, ../scss/sample.scss */
 #navBtns #navBtnList .btn.inquiry a {
-  background-position: 0 -1053px;
+  background-position: -1313px 0;
 }
-/* line 268, ../scss/sample.scss */
+/* line 269, ../scss/sample.scss */
 #navBtns #navBtnList .btn.inquiry a:hover {
-  background-position: 0 -972px;
+  background-position: -1212px 0;
 }
-/* line 274, ../scss/sample.scss */
+/* line 275, ../scss/sample.scss */
 #navBtns #navBtnList .btn.inquiry a:active {
-  background-position: 0 -1134px;
+  background-position: -1414px 0;
 }
-/* line 279, ../scss/sample.scss */
+/* line 280, ../scss/sample.scss */
 #navBtns #navBtnList .btn.inquiry a:target {
-  background-position: 0 -1215px;
+  background-position: -1515px 0;
 }
 
 /* *****************************
@@ -315,35 +316,36 @@ html body {
  * Footer link styles
  *
  **************************** */
-/* line 295, ../scss/sample.scss */
+/* line 296, ../scss/sample.scss */
 #links {
   width: 350px;
 }
-/* line 304, ../scss/sample.scss */
+/* line 305, ../scss/sample.scss */
 #links .item {
   margin-left: 15px;
   float: right;
 }
-/* line 311, ../scss/sample.scss */
+/* line 312, ../scss/sample.scss */
 #links .item a {
   display: block;
   overflow: hidden;
-  text-indent: -9999px;
+  text-indent: 100%;
+  white-space: nowrap;
   background: url('http://nonakaryuichi.github.com/scss_sprite_sample/images/links-sd26fa59df5.png') no-repeat;
 }
-/* line 326, ../scss/sample.scss */
+/* line 328, ../scss/sample.scss */
 #links .item.blog a {
   width: 196px;
   height: 20px;
   background-position: 0 0;
 }
-/* line 338, ../scss/sample.scss */
+/* line 340, ../scss/sample.scss */
 #links .item.github a {
   width: 44px;
   height: 20px;
   background-position: 0 -40px;
 }
-/* line 350, ../scss/sample.scss */
+/* line 352, ../scss/sample.scss */
 #links .item.twitter a {
   width: 45px;
   height: 17px;
